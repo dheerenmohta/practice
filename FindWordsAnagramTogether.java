@@ -1,7 +1,4 @@
-// A Java program to print all anagrams together
-import java.util.Arrays;
-import java.util.Comparator;
-public class GFG {
+
         // class for each word of duplicate array
         static class Word {
                 String str; // to store word itself
