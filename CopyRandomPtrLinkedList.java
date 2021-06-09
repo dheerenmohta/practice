@@ -56,4 +56,4 @@
         copyRandom(head);
         return extractList(head);
     }
-}
+ }
