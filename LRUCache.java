@@ -38,7 +38,7 @@ public class LRUCache {
                                                 // 5
                                                 // 6
         public void refer(int page) {
-                                !({} false) // !false // !true // !false // !false
+                                //!({} false) // !false // !true // !false // !false
                 if (!hashSet.contains(page)) {
                         //        [] 0 == 4 // 1 == 4 // 2 ==4 // 3 ==4 // 4==4
                         if (doublyQueue.size() == CACHE_SIZE) {
