@@ -43,7 +43,7 @@ public class LRUCache {
                         //        [] 0 == 4 // 1 == 4 // 2 ==4 // 3 ==4 // 4==4
                         if (doublyQueue.size() == CACHE_SIZE) {
 
-                                int last = doublyQueue.removeLast(); // remove1 // [2,4,5]
+                                int last = doublyQueue.removeLast(); // remove(1) // [2,4,5]
                                 hashSet.remove(last); //remove(1)// {2,4,5}
                         }
                 }
@@ -55,7 +55,7 @@ public class LRUCache {
                 }
                 // [1,2,4,5] // [245] // [2456]
                 doublyQueue.push(page);
-                {1,2,4,5} // {2,4,5,6}
+                //{1,2,4,5} // {2,4,5,6}
                 hashSet.add(page);
         }
 
